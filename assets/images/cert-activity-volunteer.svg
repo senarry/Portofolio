@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" fill="#FFFFFF"/>
+  <rect x="20" y="20" width="760" height="460" fill="#FAFAFA" stroke="#0F172A" stroke-width="2"/>
+  <rect x="35" y="35" width="730" height="430" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="35" y="35" width="730" height="12" fill="#0F172A"/>
+  
+  <text x="400" y="85" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#64748B" text-anchor="middle" letter-spacing="3">PANITIA PENYELENGGARA HERITAGE TRAIL RUN</text>
+  <text x="400" y="115" font-family="'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="900" fill="#0F172A" text-anchor="middle" letter-spacing="1">SERTIFIKAT VOLUNTEER</text>
+  <line x1="260" y1="130" x2="540" y2="130" stroke="#0F172A" stroke-width="2"/>
+  
+  <text x="400" y="165" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" fill="#475569" text-anchor="middle">Diberikan dengan rasa terima kasih kepada:</text>
+  <text x="400" y="202" font-family="'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="800" fill="#0F172A" text-anchor="middle">HUSAIN AFRIZAL AMINULLAH</text>
+  <text x="400" y="232" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" fill="#64748B" text-anchor="middle">Atas kontribusi dan dedikasi luar biasa sebagai:</text>
+  
+  <rect x="140" y="252" width="520" height="52" fill="#F8FAFC" stroke="#0F172A" stroke-width="1.5"/>
+  <text x="400" y="275" font-family="'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="900" fill="#0F172A" text-anchor="middle">VOLUNTEER DIVISI LOGISTIK</text>
+  <text x="400" y="295" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#475569" text-anchor="middle">Heritage Trail Run Event</text>
+  
+  <text x="400" y="335" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" fill="#475569" text-anchor="middle">Pengelolaan Inventaris Perlengkapan, Operasional Rute &amp; Sarana Acara</text>
+  
+  <line x1="70" y1="380" x2="730" y2="380" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="120" y="415" font-family="monospace" font-size="11" fill="#64748B">Kredensial: HERITAGE-TRAIL-RUN-VOL</text>
+  <text x="120" y="435" font-family="monospace" font-size="11" fill="#64748B">Kategori: Volunteer Logistik &amp; Operasional</text>
+  
+  <rect x="580" y="395" width="120" height="40" fill="#0F172A"/>
+  <text x="640" y="420" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="800" fill="#FFFFFF" text-anchor="middle">VOLUNTEER</text>
+</svg>

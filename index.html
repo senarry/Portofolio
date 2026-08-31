@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Husain Afrizal - Fresh Graduate Teknik Manufaktur UNY | Portofolio</title>
+  
+  <!-- Google Fonts: Maven Pro (Headings/Display), Open Sans & PT Sans (Body), JetBrains Mono (Code/Metadata) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Maven+Pro:wght@500;600;700;800;900&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/modal.css">
+</head>
+<body>
+
+  <!-- Backdrop untuk mobile menu -->
+  <div id="sidebar-backdrop" class="sidebar-backdrop"></div>
+
+  <!-- Mobile Header Bar (< 860px) -->
+  <header class="mobile-header">
+    <div class="mobile-logo-name">Husain Afrizal</div>
+    <button id="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="Toggle Menu">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+    </button>
+  </header>
+
+  <!-- Master App Container -->
+  <div class="app-container">
+    
+    <!-- ========================================== -->
+    <!-- SIDEBAR KIRI (15-20% WIDTH STICKY)        -->
+    <!-- ========================================== -->
+    <aside id="sidebar" class="sidebar">
+      <!-- Sidebar Header / Profil Singkat -->
+      <div class="sidebar-header">
+        <h1 id="brand-name" class="brand-title">HUSAIN AFRIZAL</h1>
+      </div>
+
+      <!-- Menu Navigasi Vertikal -->
+      <nav class="sidebar-nav">
+        <ul id="nav-menu-list" class="nav-menu">
+          <!-- Di-render dinamis oleh render.js -->
+        </ul>
+      </nav>
+
+      <!-- Sidebar Footer / Quick Links -->
+      <div class="sidebar-footer">
+        <a href="#kontak" class="sidebar-cta-btn">
+          <span>Hubungi Saya</span>
+          <span>→</span>
+        </a>
+        <div class="sidebar-socials">
+          <a href="https://www.linkedin.com/in/husainafrizal/" target="_blank" class="social-icon-btn" title="LinkedIn" aria-label="LinkedIn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+          </a>
+          <a href="mailto:husainafrizal66@gmail.com" class="social-icon-btn" title="Email" aria-label="Email">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          </a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- ========================================== -->
+    <!-- KONTEN UTAMA (RIGHT 80-85% SCROLLABLE)     -->
+    <!-- ========================================== -->
+    <main class="main-content">
+
+      <!-- 1. LATAR BELAKANG -->
+      <section id="latar-belakang" class="portfolio-section">
+        <div class="section-container-box">
+          <div class="category-box-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
+            <span>PROFIL SINGKAT</span>
+          </div>
+          <div id="hero-content">
+            <!-- Render dinamis -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. PENDIDIKAN -->
+      <section id="pendidikan" class="portfolio-section">
+        <div class="section-container-box">
+          <div class="category-box-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path></svg>
+            <span>PENDIDIKAN</span>
+          </div>
+          <div id="education-content">
+            <!-- Render dinamis -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. PROJECT PERKULIAHAN (2 KOLOM KANAN KIRI) -->
+      <section id="project-perkuliahan" class="portfolio-section">
+        <div class="section-container-box">
+          <div class="category-box-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+            <span>PROJECT PERKULIAHAN</span>
+          </div>
+          
+          <!-- Container Kategori Proyek Perkuliahan -->
+          <div id="academic-projects-grid" class="projects-categories-container">
+            <!-- Render dinamis -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. MAGANG KERJA (KATEGORI MANDIRI) -->
+      <section id="magang-kerja" class="portfolio-section">
+        <div class="section-container-box">
+          <div class="category-box-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+            <span>MAGANG KERJA INDUSTRI</span>
+          </div>
+          
+          <div id="internships-content" class="internship-master-container">
+            <!-- Render dinamis -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. STUDI INDEPENDEN (KATEGORI MANDIRI) -->
+      <section id="studi-independen" class="portfolio-section">
+        <div class="section-container-box">
+          <div class="category-box-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            <span>STUDI INDEPENDEN BERSERTIFIKAT</span>
+          </div>
+          
+          <div id="stupen-content" class="experience-container">
+            <!-- Render dinamis -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. SERTIFIKAT -->
+      <section id="sertifikat" class="portfolio-section">
+        <div class="section-container-box">
+          <div class="category-box-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+            <span>SERTIFIKAT KEAHLIAN &amp; PENGALAMAN</span>
+          </div>
+          
+          <div id="certificates-grid" class="certificates-container">
+            <!-- Render dinamis -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 7. KONTAK -->
+      <section id="kontak" class="portfolio-section">
+        <div class="section-container-box">
+          <div class="category-box-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <span>INFORMASI KONTAK</span>
+          </div>
+          
+          <div id="contact-content">
+            <!-- Render dinamis -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer id="main-footer" class="footer-simple">
+        <!-- Render dinamis -->
+      </footer>
+
+    </main>
+  </div>
+
+  <!-- ========================================== -->
+  <!-- MODAL / POP-UP CONTAINER (FULL OVERLAY)   -->
+  <!-- ========================================== -->
+  <div id="project-modal" class="modal-overlay" aria-hidden="true">
+    <div class="modal-container" role="dialog" aria-modal="true">
+      <div class="modal-header">
+        <div class="modal-header-meta">
+          <span id="modal-category-badge" class="modal-category-badge">DETAIL PROYEK</span>
+        </div>
+        <button id="modal-close-btn" class="modal-close-btn" aria-label="Tutup Popup">&times;</button>
+      </div>
+
+      <div id="modal-body-content" class="modal-body">
+        <!-- Konten detail proyek / pengalaman di-inject via modal.js -->
+      </div>
+
+      <div id="modal-footer-content" class="modal-footer">
+        <button class="btn-secondary" onclick="closeModal()">Tutup</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Modules -->
+  <script src="js/data.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/scrollspy.js"></script>
+  <script src="js/render.js"></script>
+</body>
+</html>

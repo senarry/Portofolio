@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0E7FF" />
+      <stop offset="100%" stop-color="#C7D2FE" />
+    </linearGradient>
+    <linearGradient id="suit-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="skin-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+    <linearGradient id="accent-uny" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Circle -->
+  <circle cx="200" cy="200" r="195" fill="url(#bg-grad)" stroke="#6366F1" stroke-width="4" />
+
+  <!-- Background Pattern / Engineering Grids -->
+  <g opacity="0.15" stroke="#4F46E5" stroke-width="1.5">
+    <line x1="50" y1="50" x2="350" y2="350" />
+    <line x1="350" y1="50" x2="50" y2="350" />
+    <circle cx="200" cy="200" r="140" fill="none" stroke-dasharray="6,6" />
+    <circle cx="200" cy="200" r="80" fill="none" />
+  </g>
+
+  <!-- Body / Formal Suit -->
+  <path d="M90 400 C90 310, 140 285, 200 285 C260 285, 310 310, 310 400 Z" fill="url(#suit-grad)" />
+  
+  <!-- Shirt & Tie -->
+  <path d="M165 285 L200 360 L235 285 Z" fill="#FFFFFF" />
+  <!-- UNY Blue Tie -->
+  <path d="M192 290 L208 290 L204 350 L200 365 L196 350 Z" fill="url(#accent-uny)" />
+
+  <!-- Neck -->
+  <rect x="175" y="220" width="50" height="70" rx="10" fill="#F59E0B" opacity="0.9" />
+
+  <!-- Head -->
+  <ellipse cx="200" cy="180" rx="65" ry="75" fill="#FDE68A" />
+
+  <!-- Hair -->
+  <path d="M135 170 C135 105, 170 95, 200 95 C235 95, 265 105, 265 170 C250 135, 230 120, 200 120 C170 120, 150 135, 135 170 Z" fill="#1E293B" />
+
+  <!-- Glasses -->
+  <rect x="150" y="160" width="38" height="26" rx="6" fill="none" stroke="#0F172A" stroke-width="4" />
+  <rect x="212" y="160" width="38" height="26" rx="6" fill="none" stroke="#0F172A" stroke-width="4" />
+  <line x1="188" y1="172" x2="212" y2="172" stroke="#0F172A" stroke-width="4" />
+  <!-- Glasses reflection -->
+  <line x1="155" y1="165" x2="168" y2="180" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.8" />
+  <line x1="217" y1="165" x2="230" y2="180" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.8" />
+
+  <!-- Smile -->
+  <path d="M185 215 Q200 228 215 215" fill="none" stroke="#B45309" stroke-width="3.5" stroke-linecap="round" />
+
+  <!-- Engineering Badge Pin -->
+  <g transform="translate(130, 330)">
+    <circle cx="12" cy="12" r="12" fill="#F59E0B" />
+    <path d="M12 4 L14 10 L20 10 L15 14 L17 20 L12 16 L7 20 L9 14 L4 10 L10 10 Z" fill="#FFFFFF" transform="scale(0.8) translate(3,3)" />
+  </g>
+</svg>
