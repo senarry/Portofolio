@@ -36,11 +36,10 @@ const portfolioData = {
   education: [
     {
       id: "edu-01",
-      degree: "Sarjana Terapan / S1 Teknik Manufaktur",
+      degree: "S1 Teknik Manufaktur",
       institution: "Universitas Negeri Yogyakarta (UNY)",
       period: "Lulus Agustus 2026",
       gpa: "3.79 / 4.00",
-      tag: "Akademik & Organisasi Kampus",
       description: "Mempelajari proses dan sistem manufaktur yang mencakup perancangan produk, CAD/CAM, proses pemesinan dan CNC, perancangan jig dan fixture, metrologi, otomasi industri, perancangan sistem manufaktur, serta manajemen kualitas dan perbaikan proses.",
       highlights: [
         "Penegak Kedisiplinan dalam Pengenalan Kehidupan Kampus Mahasiswa Baru (PKKMB) Fakultas Teknik UNY",
