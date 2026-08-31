@@ -72,12 +72,12 @@ function renderHero() {
         <div class="hero-title-role">${profile.title} • ${profile.institution}</div>
         <p class="hero-bio">${profile.bio}</p>
         <div class="hero-skills-chips">
-          <span class="skill-chip">⚙️ CAD/CAM/CAE</span>
-          <span class="skill-chip">🔩 CNC Machining (VMC & Lathe)</span>
-          <span class="skill-chip">🖨️ 3D Printing & Tooling</span>
-          <span class="skill-chip">🤖 Otomasi Industri (PLC)</span>
-          <span class="skill-chip">🛡️ K3 & Ergonomi Industri</span>
-          <span class="skill-chip">📐 Lean Manufacturing & DOE</span>
+          <span class="skill-chip">CAD/CAM/CAE</span>
+          <span class="skill-chip">CNC Machining (VMC & Lathe)</span>
+          <span class="skill-chip">3D Printing & Tooling</span>
+          <span class="skill-chip">Otomasi Industri (PLC)</span>
+          <span class="skill-chip">K3 & Ergonomi Industri</span>
+          <span class="skill-chip">Lean Manufacturing & DOE</span>
         </div>
       </div>
       <div class="hero-avatar-wrap">
@@ -112,7 +112,7 @@ function renderEducation() {
       </div>
 
       <div class="edu-highlights-box">
-        <div class="edu-highlights-title">⭐ Sorotan Kurikulum, Kepanitiaan &amp; Pengalaman Organisasi:</div>
+        <div class="edu-highlights-title">Sorotan Kurikulum, Kepanitiaan &amp; Pengalaman Organisasi:</div>
         <ul class="edu-highlights-list">
           ${edu.highlights.map(item => `<li>${item}</li>`).join('')}
         </ul>

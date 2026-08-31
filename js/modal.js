@@ -171,53 +171,53 @@ function openProjectModal(projectId, source = 'academic', returnToExp = null) {
       </div>
 
       <!-- TOOLS & EQUIPMENT -->
-      <h4 class="modal-section-title">🔧 Software, Tools &amp; Equipment</h4>
+      <h4 class="modal-section-title">Software, Tools &amp; Equipment</h4>
       <div class="modal-tools-chips">
         ${(details.tools || []).map(t => `<span class="modal-tool-pill">${t}</span>`).join('')}
       </div>
 
       ${details.skills && details.skills.length > 0 ? `
         <!-- SKILLS & KOMPETENSI -->
-        <h4 class="modal-section-title" style="margin-top: 18px;">🎯 Skills &amp; Kompetensi</h4>
+        <h4 class="modal-section-title" style="margin-top: 18px;">Skills &amp; Kompetensi</h4>
         <div class="modal-tools-chips">
           ${details.skills.map(s => `<span class="modal-tool-pill" style="background:#E2E8F0; color:#0F172A; font-weight:700;">${s}</span>`).join('')}
         </div>
       ` : ''}
 
       <!-- DESCRIPTION -->
-      <h4 class="modal-section-title">📝 Ringkasan &amp; Metodologi Rekayasa</h4>
+      <h4 class="modal-section-title">Ringkasan &amp; Metodologi Rekayasa</h4>
       <p class="modal-description-text">${details.fullDescription || project.shortDesc}</p>
 
 
 
       ${details.assignmentSections ? `
-        <h4 class="modal-section-title" style="margin-top: 26px;">📑 Fokus &amp; Struktur Pengerjaan Assignment</h4>
+        <h4 class="modal-section-title" style="margin-top: 26px;">Fokus &amp; Struktur Pengerjaan Assignment</h4>
         <div class="modal-structured-sections">
           <div class="modal-section-box">
             <div class="modal-section-box-header">
               <span class="modal-section-box-badge">BAGIAN 1</span>
-              <span class="modal-section-box-title">📌 Latar Belakang</span>
+              <span class="modal-section-box-title">Latar Belakang</span>
             </div>
             <p class="modal-section-box-text">${details.assignmentSections.latarBelakang}</p>
           </div>
           <div class="modal-section-box">
             <div class="modal-section-box-header">
               <span class="modal-section-box-badge">BAGIAN 2</span>
-              <span class="modal-section-box-title">⚠️ Pendefinisian Masalah</span>
+              <span class="modal-section-box-title">Pendefinisian Masalah</span>
             </div>
             <p class="modal-section-box-text">${details.assignmentSections.pendefinisianMasalah}</p>
           </div>
           <div class="modal-section-box">
             <div class="modal-section-box-header">
               <span class="modal-section-box-badge">BAGIAN 3</span>
-              <span class="modal-section-box-title">📊 Hasil dan Analisis Simulasi</span>
+              <span class="modal-section-box-title">Hasil dan Analisis Simulasi</span>
             </div>
             <p class="modal-section-box-text">${details.assignmentSections.hasilDanAnalisis}</p>
           </div>
           <div class="modal-section-box">
             <div class="modal-section-box-header">
               <span class="modal-section-box-badge">BAGIAN 4</span>
-              <span class="modal-section-box-title">💡 Kesimpulan</span>
+              <span class="modal-section-box-title">Kesimpulan</span>
             </div>
             <p class="modal-section-box-text">${details.assignmentSections.kesimpulan}</p>
           </div>
@@ -225,54 +225,54 @@ function openProjectModal(projectId, source = 'academic', returnToExp = null) {
       ` : ''}
 
       ${details.capstoneSections ? `
-        <h4 class="modal-section-title" style="margin-top: 26px;">🏆 Fokus &amp; Struktur Pengerjaan Capstone Project</h4>
+        <h4 class="modal-section-title" style="margin-top: 26px;">Fokus &amp; Struktur Pengerjaan Capstone Project</h4>
         <div class="modal-structured-sections">
           <div class="modal-section-box">
             <div class="modal-section-box-header">
               <span class="modal-section-box-badge">1</span>
-              <span class="modal-section-box-title">📌 Project Background and Description</span>
+              <span class="modal-section-box-title">Project Background and Description</span>
             </div>
             <p class="modal-section-box-text">${details.capstoneSections.projectBackground}</p>
           </div>
           <div class="modal-section-box">
             <div class="modal-section-box-header">
               <span class="modal-section-box-badge">2</span>
-              <span class="modal-section-box-title">⚠️ Problem Statement</span>
+              <span class="modal-section-box-title">Problem Statement</span>
             </div>
             <p class="modal-section-box-text">${details.capstoneSections.problemStatement}</p>
           </div>
           <div class="modal-section-box">
             <div class="modal-section-box-header">
               <span class="modal-section-box-badge">3</span>
-              <span class="modal-section-box-title">🎯 Objective</span>
+              <span class="modal-section-box-title">Objective</span>
             </div>
             <p class="modal-section-box-text">${details.capstoneSections.objective}</p>
           </div>
           <div class="modal-section-box">
             <div class="modal-section-box-header">
               <span class="modal-section-box-badge">4</span>
-              <span class="modal-section-box-title">⚙️ Model Description</span>
+              <span class="modal-section-box-title">Model Description</span>
             </div>
             <p class="modal-section-box-text">${details.capstoneSections.modelDescription}</p>
           </div>
           <div class="modal-section-box">
             <div class="modal-section-box-header">
               <span class="modal-section-box-badge">5</span>
-              <span class="modal-section-box-title">📊 Simulation Results</span>
+              <span class="modal-section-box-title">Simulation Results</span>
             </div>
             <p class="modal-section-box-text">${details.capstoneSections.simulationResults}</p>
           </div>
           <div class="modal-section-box">
             <div class="modal-section-box-header">
               <span class="modal-section-box-badge">6</span>
-              <span class="modal-section-box-title">💬 Discussion</span>
+              <span class="modal-section-box-title">Discussion</span>
             </div>
             <p class="modal-section-box-text">${details.capstoneSections.discussion}</p>
           </div>
           <div class="modal-section-box">
             <div class="modal-section-box-header">
               <span class="modal-section-box-badge">7</span>
-              <span class="modal-section-box-title">💡 Conclusion</span>
+              <span class="modal-section-box-title">Conclusion</span>
             </div>
             <p class="modal-section-box-text">${details.capstoneSections.conclusion}</p>
           </div>
@@ -280,7 +280,7 @@ function openProjectModal(projectId, source = 'academic', returnToExp = null) {
       ` : ''}
 
       ${details.results && details.results.length > 0 ? `
-        <h4 class="modal-section-title" style="margin-top: 26px;">🏆 Hasil &amp; Pencapaian Utama</h4>
+        <h4 class="modal-section-title" style="margin-top: 26px;">Hasil &amp; Pencapaian Utama</h4>
         <ul class="modal-results-list">
           ${details.results.map(res => `<li>${res}</li>`).join('')}
         </ul>
@@ -368,10 +368,10 @@ function openExperienceModal(expId, type) {
           </div>
           <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 16px;">
             <span style="font-size: 0.78rem; font-weight: 700; font-family: var(--font-mono); background: #F1F5F9; border: 1px solid #CBD5E1; padding: 4px 10px;">
-              📅 ${exp.period}
+              ${exp.period}
             </span>
             <span style="font-size: 0.78rem; font-weight: 700; font-family: var(--font-mono); background: #F1F5F9; border: 1px solid #CBD5E1; padding: 4px 10px;">
-              📍 ${exp.location}
+              ${exp.location}
             </span>
           </div>
           <p class="modal-description-text">${exp.summary}</p>
@@ -455,8 +455,8 @@ function openExperienceModal(expId, type) {
             ${exp.position} — ${exp.department}
           </div>
           <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 14px;">
-            <span style="font-size: 0.78rem; font-weight: 700; font-family: var(--font-mono); background: #F1F5F9; border: 1px solid #CBD5E1; padding: 4px 10px;">📅 ${exp.period}</span>
-            <span style="font-size: 0.78rem; font-weight: 700; font-family: var(--font-mono); background: #F1F5F9; border: 1px solid #CBD5E1; padding: 4px 10px;">📍 ${exp.location}</span>
+            <span style="font-size: 0.78rem; font-weight: 700; font-family: var(--font-mono); background: #F1F5F9; border: 1px solid #CBD5E1; padding: 4px 10px;">${exp.period}</span>
+            <span style="font-size: 0.78rem; font-weight: 700; font-family: var(--font-mono); background: #F1F5F9; border: 1px solid #CBD5E1; padding: 4px 10px;">${exp.location}</span>
           </div>
           <!-- Main Responsibility -->
           <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-left: 4px solid #0F172A; padding: 12px 16px; margin-bottom: 14px;">
@@ -467,7 +467,7 @@ function openExperienceModal(expId, type) {
         </div>
 
         <!-- Tools Used -->
-        <h4 class="modal-section-title">🔧 Tools & Software Stack</h4>
+        <h4 class="modal-section-title">Tools & Software Stack</h4>
         <div style="display: flex; flex-direction: column; gap: 8px; margin-bottom: 22px;">
           ${Object.entries(tools).map(([key, arr]) => `
             <div style="display: flex; align-items: flex-start; gap: 8px; flex-wrap: wrap;">
@@ -478,7 +478,7 @@ function openExperienceModal(expId, type) {
         </div>
 
         <!-- Skills -->
-        <h4 class="modal-section-title">🎯 Skills</h4>
+        <h4 class="modal-section-title">Skills</h4>
         <div class="modal-tools-chips" style="margin-bottom: 28px;">
           ${(exp.skills || []).map(s => `<span class="modal-tool-pill">${s}</span>`).join('')}
         </div>
@@ -526,16 +526,16 @@ function openEducationModal(eduId) {
         </div>
         <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 16px;">
           <span style="font-size: 0.78rem; font-weight: 700; font-family: var(--font-mono); background: #F1F5F9; border: 1px solid #E2E8F0; color: #0F172A; padding: 4px 10px;">
-            🎓 IPK: ${edu.gpa}
+            IPK: ${edu.gpa}
           </span>
           <span style="font-size: 0.78rem; font-weight: 700; font-family: var(--font-mono); background: #F1F5F9; border: 1px solid #E2E8F0; color: #475569; padding: 4px 10px;">
-            📅 ${edu.period}
+            ${edu.period}
           </span>
         </div>
         <p class="modal-description-text">${edu.description}</p>
       </div>
 
-      <h4 class="modal-section-title">🔬 Fokus Keahlian &amp; Rekayasa Manufaktur</h4>
+      <h4 class="modal-section-title">Fokus Keahlian &amp; Rekayasa Manufaktur</h4>
       <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-left: 4px solid #0F172A; padding: 16px; margin-bottom: 26px;">
         <strong style="display: block; font-family: var(--font-display); font-size: 1.05rem; color: #0F172A; margin-bottom: 6px;">
           ${edu.details.thesisTitle}
@@ -545,7 +545,7 @@ function openEducationModal(eduId) {
         </p>
       </div>
 
-      <h4 class="modal-section-title">👥 Pengalaman Kepanitiaan &amp; Organisasi Kampus (Beserta Sertifikat / Dokumentasi)</h4>
+      <h4 class="modal-section-title">Pengalaman Kepanitiaan &amp; Organisasi Kampus (Beserta Sertifikat / Dokumentasi)</h4>
       <div class="edu-modal-activities-list">
         ${activities.map(act => `
           <div class="edu-modal-activity-card">
@@ -567,7 +567,7 @@ function openEducationModal(eduId) {
         `).join('')}
       </div>
 
-      <h4 class="modal-section-title" style="margin-top: 26px;">🏆 Sorotan Prestasi &amp; Portofolio Akademik</h4>
+      <h4 class="modal-section-title" style="margin-top: 26px;">Sorotan Prestasi &amp; Portofolio Akademik</h4>
       <ul class="modal-results-list">
         ${edu.highlights.map(item => `<li>${item}</li>`).join('')}
       </ul>
@@ -620,12 +620,12 @@ function openCertificateModal(certId) {
         ` : ''}
       </div>
 
-      <h4 class="modal-section-title">📄 Deskripsi &amp; Standar Kompetensi</h4>
+      <h4 class="modal-section-title">Deskripsi &amp; Standar Kompetensi</h4>
       <p class="modal-description-text">
         ${cert.details ? cert.details.description : 'Sertifikat kompetensi terverifikasi yang mengesahkan keahlian teknis di bidang rekayasa manufaktur.'}
       </p>
 
-      <h4 class="modal-section-title">🎯 Bidang Keahlian Teruji</h4>
+      <h4 class="modal-section-title">Bidang Keahlian Teruji</h4>
       <div class="modal-tools-chips">
         ${cert.skills.map(s => `<span class="modal-tool-pill">${s}</span>`).join('')}
       </div>

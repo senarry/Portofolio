@@ -43,8 +43,8 @@ const portfolioData = {
       tag: "Akademik & Organisasi Kampus",
       description: "Mempelajari proses dan sistem manufaktur yang mencakup perancangan produk, CAD/CAM, proses pemesinan dan CNC, perancangan jig dan fixture, metrologi, otomasi industri, perancangan sistem manufaktur, serta manajemen kualitas dan perbaikan proses.",
       highlights: [
-        "Penegak Kedisiplinan — Pengenalan Kehidupan Kampus Mahasiswa Baru (PKKMB) Fakultas Teknik UNY",
-        "Anggota Divisi Logistik — Kegiatan Heritage Trail Run",
+        "Penegak Kedisiplinan dalam Pengenalan Kehidupan Kampus Mahasiswa Baru (PKKMB) Fakultas Teknik UNY",
+        "Anggota Divisi Logistik dalam Kegiatan Heritage Trail Run",
         "Kompetensi Utama: Perancangan Produk, CAD/CAM, Pemesinan CNC, Jig & Fixture, Metrologi, Otomasi & Manajemen Kualitas",
         "Aktif dalam kegiatan kepanitiaan dan organisasi selama perkuliahan untuk menjaga ketertiban, mengelola kebutuhan perlengkapan, dan memastikan kegiatan berjalan dengan baik."
       ],
